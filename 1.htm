@@ -1,0 +1,56 @@
+﻿<html>
+
+<body>
+<h2 style="text-align:center;">Un calculator</h2>
+</body>
+
+<head>
+<title>Un calculator</title>
+</head>
+
+<body background="calculator.jpg" text= "Blue">
+
+</body>
+
+<script>
+function calc(form) {
+
+var D = "0";
+var A = document.getElementById("num1").value;
+var B = document.getElementById("op").value;
+var C = document.getElementById("num2").value;
+
+if (B === "+")
+{
+D = parseFloat(A)+parseFloat(C); 
+}
+else if(B === "-")
+{
+D = parseFloat(A)-parseFloat(C);
+}
+else if(B === "*")
+{
+D = parseFloat(A)*parseFloat(C);
+}
+else if (B === "/")
+{
+D = parseFloat(A)/parseFloat(C);
+}
+document.getElementById("result").innerHTML = D;
+return false;
+}
+</script>
+<body>
+
+<br><b style="margin-left:1.72cm">Introdu primul numar <input type="text" id="num1" name="num1" />
+<br><b style="margin-left:2.28cm">Introdu o operatie <input type="text" id="op" name="op" />
+<br><b style="margin-left:1.44cm">Introdu al II-lea numar <input type="text" id="num2" name="num2" />
+<br />
+<b style="margin-left:6.3cm"><input type="button" value="Calculeaza" onClick="calc()">
+
+<p id="result" name="r1">
+<br />
+</p>
+
+</body>
+</html>
