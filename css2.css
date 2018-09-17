@@ -1,0 +1,217 @@
+﻿/* centre le corps dans le milieu de la page*/
+
+body {
+	margin:0 auto;
+	background-color: grey;
+	height:100%;
+}
+
+
+div#global  /* definition page*/ {
+	width: 1200px;
+	padding:0 10px;
+	margin:0 auto;
+	position:relative;
+	padding:0 10px;
+	background: url('images/global2.png') center repeat-y;
+}
+
+h1#top {
+	margin:0;
+	padding:0;
+	text-indent:-5000px;
+	line-height: 1px;
+	font-size:1px;
+}
+
+
+div#center /* aligner les colonnes menu et contenu */ {
+	overflow:auto;
+}
+
+
+
+
+
+div#contenu /* definition cadre contenu*/{
+	float:right;
+	width: 624px;
+}
+
+
+div#blocmenu  /* definition bloc menu*/{
+	float:left;
+	width:154px;
+	margin:0px;
+}
+
+
+#accesqualite   /* definition encart qualite cliquable*/{
+	width:154px;
+	list-style:none;
+	margin:0px;
+	padding:0px;
+}
+ul#accesqualite {
+	margin:0px;
+}
+
+
+#accesqualite li {
+	float:left;
+	width:154px;
+	height:101px;
+	background:url('images/interface_31-3.jpg') ;
+}
+#accesqualite li a {
+	display:block;
+	height:101px;
+	background:url('images/interface_31-3.jpg') ;
+}
+#accesqualite li a:active {
+	background:url('images/interface_31-over-3.jpg') ;
+}
+#accesqualite li a:focus {
+	background:url('images/interface_31-over-3.jpg') ;
+}
+#accesqualite li a:hover {
+	background:url('images/interface_31-over-3.jpg') ;
+}
+
+
+
+
+#menu li {
+	background:url('images/fond-rouge.gif');
+}
+ul#menu {
+	margin:101px 0px 0px 0px;
+	padding:0px;
+	list-style:none;
+}
+ul#menu li a {
+	display:block;
+	height:30px;
+	line-height:30px;
+	color: black;
+	padding-left:10px;
+	border-bottom:1px solid black;
+	text-decoration:none;
+	font: 13px/30px verdana;
+}
+ul#menu li a:hover {
+	text-decoration: underline;
+	color: white;
+	background-position:left bottom;
+}
+
+
+h1#bottom {
+	margin:0;
+	padding:0;
+	text-indent:-5000px;
+	line-height: 1px;
+	font-size:1px;
+}
+
+
+
+div#pieddepage /*definition bloc pied de page*/ {
+	width:800px;
+	bottom:0px;
+	left:10px;
+	background:#EBEBEB;
+
+}
+
+
+
+a                 /* liens dans la page*/ {
+	text-decoration: none;
+	color: blue;
+	font-style: none;
+	font-weight: 400;
+}
+a:hover {
+	text-decoration: underline;
+	color: red;
+}
+a:active {
+	background-color: none;
+}
+
+a img  /* supp contour bleu sur images avec liens    */{
+	border: none;
+}
+
+
+
+
+.titre            /* styles */  {
+	font-family: Verdana;
+	font-size: 13px;
+	font-weight: bold;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #000000;
+}
+.sous-titre {
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: bold;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #000000;
+}
+.texte {
+	font-family: Verdana;
+	font-size: 11px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	font-weight: 400;
+}
+.texte-surligne {
+	font-family: Verdana;
+	font-size: 11px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	font-weight: 400;
+	font-style: italic;
+	background-color: #ffff00
+}
+.texte-9px {
+	font-family: Verdana;
+	font-size: 9px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	font-weight: 400;
+}
+.texte-12px {
+	font-family: Verdana;
+	font-size: 12px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	font-weight: 400;
+}
+
+.titre_rouge_ital  {
+	font-family: Verdana;
+	font-size: 10.5pt;
+	font-weight: bold;
+	font-style: italic;
+	font-variant: normal;
+	text-transform: none;
+	color: red;
+}
+.texte-105pt {
+	font-family: Verdana;
+	font-size: 10.5pt;
+	font-style: normal;
+	font-variant: normal;
+	color: #000000;
+}
+
+
+
